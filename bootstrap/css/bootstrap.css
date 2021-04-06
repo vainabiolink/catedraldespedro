@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*!
  * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -46,12 +47,12 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #b2bec3;
+  background-color: #dfe4ea;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -463,6 +464,7 @@ progress {
   margin-left: auto;
   align-items: center;
   margin-right: auto;
+  animation: aparecer 1s;
 }
 
 .card-fotos{
@@ -474,7 +476,7 @@ progress {
   margin-right: auto;
   border-radius: 5px;
   margin-top: 100px;
-  
+  box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.5);
 }
 
 .texto-titulo{
@@ -483,6 +485,7 @@ progress {
   vertical-align: middle;
   margin-top: 85px;
   margin-left: 25px;
+  color: #57606f;
   
 }
 
@@ -502,6 +505,7 @@ progress {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+  animation: subir 1s;
 }
 
 .link-1{
@@ -511,8 +515,11 @@ progress {
   border-radius: 5px;
   text-align: center;
   color: #fff;
-  
-  
+  box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.5);
+}
+.link-1:hover{
+  transform: scale(1.1);
+  transition: 400ms;
 }
 
 .link-2{
@@ -522,7 +529,12 @@ progress {
   border-radius: 5px;
   text-align: center;
   color: #fff;
-  
+  box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.5);
+}
+
+.link-2:hover{
+  transform: scale(1.1);
+  transition: 400ms;
 }
 
 .texto-link{
@@ -532,6 +544,22 @@ progress {
 #botao{
   text-decoration: none;
 }
+
+.social{
+  margin-left: auto;
+  margin-right: auto;
+  animation: subir 1s;
+}
+.link-social{
+  margin: 5px;
+}
+.link-social:hover{
+  transform: scale(1.8);
+  transition: 500ms;
+}
+
+@keyframes aparecer{from{opacity: 0;}to{opacity: 1;}}
+@keyframes subir{from{transform: translateY(100px);}to{transform: translateY(0px);}}
 
 
 /*
