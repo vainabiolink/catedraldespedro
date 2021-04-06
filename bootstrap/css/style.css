@@ -1,0 +1,72 @@
+/**{margin: 0; padding: 0;}
+body{
+    background-color: #b2bec3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****Itens CSS****/
+
+/*.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}*/
+.card-fotos{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 600px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+.texto-titulo{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-left: 15px;
+    
+}
+.img-perfil{
+    position: relative;
+    width: 200px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+.links{
+    margin-top: 50px;
+    width: 600px;
+    text-decoration: none;
+}
+.link-1{
+    background-color: #fff;
+    margin-bottom: 25px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.link-2{
+    background-color: #fff;
+    margin-bottom: 25px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.texto-link{
+    padding-top: 25px;
+}
+
+#botao{
+    text-decoration: none;
+}
